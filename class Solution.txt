@@ -4,7 +4,8 @@ class Solution:
         n = len(nums)
 
         for i in range(len(nums)):
-	　　    ans.append(nums[i])
+            ans.append(nums[i])
+
         for i in range(len(nums)):
             ans.append(nums[i])
 
