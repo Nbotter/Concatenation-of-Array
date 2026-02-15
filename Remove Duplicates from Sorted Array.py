@@ -5,7 +5,6 @@ class Solution:
         if not nums:
             return 0
         
-        # unique要素を書き込む位置
         k = 1
         
         for i in range(1, len(nums)):
