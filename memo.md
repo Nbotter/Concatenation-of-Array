@@ -63,7 +63,7 @@ class Solution:
 
 ##Step4
 命名やコメントを工夫してみる
-
+```
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
     #配列numsの左端のindexをnums_left,右端のindexをnums_right
@@ -73,7 +73,6 @@ class Solution:
     #nums_leftとnums_rightの間が少なくとも1文字以上取る間
         while nums_left <= nums_right:
             nums_mid = (nums_left + nums_right) // 2
-    #
             if nums[nums_mid] == target:
                 return nums_mid
     #半分より右側にあるのは確定なのでnums_leftを+1して次回から見るのは右側のみに絞る
@@ -84,3 +83,4 @@ class Solution:
                 nums_right = nums_mid - 1
 
         return nums_left
+```
