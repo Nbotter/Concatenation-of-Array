@@ -1,0 +1,9 @@
+1.最初に書いた(疑似)コード
+
+文字列の文字が合致しているかで一番簡単なのは同じindexの文字が合致かの判別　なので
+
+retu = []
+
+for i in range(len(nums))
+    if hay [i] = needle[i]:
+        retu.append()
