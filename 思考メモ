@@ -1,4 +1,4 @@
-1.最初に書いた(疑似)コード
+## 1.最初に書いた(疑似)コード
 
 文字列の文字が合致しているかで一番簡単なのは同じindexの文字が合致かの判別　なので
 
@@ -7,3 +7,21 @@ retu = []
 for i in range(len(nums))
     if hay [i] = needle[i]:
         retu.append()
+
+
+## leetcodeで走らせてもうまくいかない件について
+まず,if not needle:が正しいのであって ==0は不要
+
+また、
+haystack =
+"sadbutsad"
+
+needle =
+"sad"
+
+で
+output:-1 なので以下の二点が思い浮かぶ
+1.逆から探知？
+2.見つからなかった？
+
+問題文をよく読むと、len_haystack > len_needleなのでは？
