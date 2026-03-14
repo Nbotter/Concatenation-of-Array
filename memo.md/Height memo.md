@@ -27,3 +27,4 @@ class Solution:
                 Sums_Of_different_number += 1
         return Sums_Of_different_number
 ```
+最初はelseでi += 1を記載したほうがよいと思っていたがPythonはそれを書かなくても問題なくiを進めるとのことなのでそうした
