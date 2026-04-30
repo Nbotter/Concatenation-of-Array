@@ -1,4 +1,3 @@
-'''
 class Solution:
     def getDecimalValue(self, head: Optional[ListNode]) -> int:
         result = 0
@@ -8,4 +7,3 @@ class Solution:
             node = node.next
 
         return result
-'''
